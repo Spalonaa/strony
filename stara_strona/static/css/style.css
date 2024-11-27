@@ -1,0 +1,71 @@
+@keyframes color-pulse {
+    0% {
+        color: red;
+    }
+
+    50% {
+        color: blue;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+@keyframes resize {
+    0% {
+        width: 25%;
+        height: 25%;
+    }
+
+    25% {
+        width: 50%;
+        height: 25%;
+    }
+
+    50% {
+        width: 50%;
+        height: 50%;
+    }
+
+    75% {
+        width: 25%;
+        height: 50%;
+    }
+
+    100% {
+        width: 25%;
+        height: 25%;
+    }
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    background-color: rgb(192, 192, 173);
+}
+
+h1 {
+    color: red;
+    animation: color-pulse 3s infinite;
+}
+
+p {
+    color: green;
+}
+
+img {
+    animation: resize 5s infinite;
+}
+
+h2 {
+    font-size: 20px;
+    color: black;
+    transition: font-size 3s, color 1s;
+}
+
+h2:hover {
+    font-size: 25px;
+    color: white;
+    transition: font-size 3s, color 1s;
+}

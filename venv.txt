@@ -1,0 +1,6 @@
+0. Zainstalowanie programu pipenv: pip install pipenv
+
+1. Tworzymy nowe środowisko: pipenv shell
+2. Wskazujemy nowe środowisko w Visual Studio Code, przez wybranie odpowiedniego internpretra (tego, który zawiera nazwę foldru projektu w swojej nazwie)
+    opcji Python: Select Interpreter (opcje przeglądamy za pomocą shift+crtl+p)
+3. Biblioteki instalujemy za pomocą pipenv install
